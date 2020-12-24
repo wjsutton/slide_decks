@@ -1,123 +1,44 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Hello my name is</title>
+    <title>Personal Projects Viz Recap: Running</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Your name here" />
-    <meta name="date" content="2020-12-23" />
+    <meta name="author" content="Will Sutton" />
+    <meta name="date" content="2020-12-24" />
     <link href="Untitled_files/remark-css/default.css" rel="stylesheet" />
     <link href="Untitled_files/remark-css/default-fonts.css" rel="stylesheet" />
   </head>
   <body>
     <textarea id="source">
-class: center, middle, inverse, title-slide
+class: left, middle, inverse, title-slide
 
-# Hello my name is <yournamehere>
-### Your name here
-### 2020-12-23
+# Personal Projects Viz Recap: Running
+## Theme: Running
+### Will Sutton
+### 2020-12-24
 
 ---
 
 
-&lt;!-- edit name1 and name2 in the YAML above --&gt;
+class: left, top
+# Introduction Slide
+I like running, 
+I like dataviz
+---
 
+class: left, top
+# Viz 1
 
+.pull-left[This is my first viz on blah]
 
+.pull-right[
+Parkrun Report
+![](https://public.tableau.com/static/images/We/West4HarriersParkrunReport/WeeklyParkrunReport/1.png)
+]
 
-```r
-# optional package installs if you want to do more below
-install.packages("leaflet")
-```
+---
 
-
-&lt;!-- introduce yourself here --&gt;
-
-Hello my name is Your name here!
-
-Say something about what you do, what you use R Markdown for, your favorite R package, etc.
-
-&lt;!-- include an image here, if you have a GitHub account use your profile pic! --&gt;
-
-![](https://github.com/USERNAME.png)&lt;!-- --&gt;
-
-
-
-&lt;!-- we make the data here --&gt;
-
-
-```r
-# getting the data
-namedata &lt;- babynames %&gt;%
-  filter(name == params$name1 | 
-           name == params$name2) %&gt;% 
-  filter(sex == "F") 
-```
-
-&lt;!-- get and see top years for each name --&gt;
-
-
-```r
-topyears &lt;- namedata %&gt;% 
-  group_by(name) %&gt;% 
-  top_n(1, prop) 
-```
-
-
-
-```r
-topyears %&gt;% 
-  filter(name == params$name1)
-```
-
-```
-## # A tibble: 1 x 5
-## # Groups:   name [1]
-##    year sex   name       n    prop
-##   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;  &lt;int&gt;   &lt;dbl&gt;
-## 1  1979 F     Alison  2936 0.00170
-```
-
-
-
-```r
-topyears %&gt;% 
-  filter(name == params$name2)
-```
-
-```
-## # A tibble: 1 x 5
-## # Groups:   name [1]
-##    year sex   name        n    prop
-##   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;   &lt;int&gt;   &lt;dbl&gt;
-## 1  1995 F     Allison  8126 0.00423
-```
-
-
-&lt;!-- plot name popularity over time --&gt;
-
-
-
-```r
-ggplot(namedata, 
-  aes(x = year, 
-      y = prop,  
-      group = name, 
-      color = name)) + 
-  geom_line() 
-```
-
-![](Untitled_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
-
-
-&lt;!-- where are you from? --&gt;
-
-
-
-```r
-# erase this chunk option if you want to include a map
-library(leaflet)
-leaflet() %&gt;% addTiles() %&gt;% setView(lat = 30.2621, lng = -97.7382, zoom = 17)
-```
+# Fin
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
