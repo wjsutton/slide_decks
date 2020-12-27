@@ -11,3 +11,7 @@ library(revealjs)
 arm_from_cran <- c("flexdashboard", "learnr", "bookdown",
                    "officer", "rticles", "webshot",
                    "tidyverse", "remotes", "babynames", "magick")
+
+devtools::install_github("ropenscilabs/icon")
+icon::download_fontawesome()
+# list of all icons: https://fontawesome.com/icons?d=gallery
