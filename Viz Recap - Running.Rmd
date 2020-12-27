@@ -1,0 +1,166 @@
+---
+title: "<span style = 'font-size: 300%;color: #f2f2f2;'>**Viz Recap**</span>"
+subtitle: "<span style = 'font-size: 80%;color: #f2f2f2;'>THEME: RUNNING </span>"
+author: '<span style = "color: #f2f2f2;">Will Sutton | `r Sys.Date()` <br><span style = "font-size: 70%;">`r icon::fontawesome("link", style = "solid")` [wjsutton.github.io](https://wjsutton.github.io/) | `r icon::fontawesome("twitter", style = "brands")` [wjsutton12](https://twitter.com/WJSutton12)| `r icon::fontawesome("chart-bar", style = "solid")` [tableau/will7508](https://public.tableau.com/profile/will7508#!/) | `r icon::fontawesome("github", style = "brands")` [wjsutton](https://github.com/wjsutton) | `r icon::fontawesome("instagram", style = "brands")` [data.gram](https://www.instagram.com/data.gram/)</span></span>'
+date: "<span style = 'font-size: 70%;'></span>"
+footer: "Testing"
+output: 
+  xaringan::moon_reader:
+    anchor_sections: FALSE
+    css: ["default", "assets/css/metropolis_blogstyle.css", "assets/css/metropolis-fonts.css"]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      titleSlideClass: ["left", "middle", "inverse"]
+---
+
+class: left, top
+# Recap Structure
+
+### Intro
+Over the last few months I've created a collection of running related data visualisations. I run regularly so have a keen interest in the sport and wanted to explore what was possible with dataviz. Lastly I wanted to further my data skills so most projects be testing out a new technique.
+
+
+### Recap Structure
+Each viz recap review with the following:
+- **AUDIENCE** The people viz was designed for 
+- **RATIONAL** The purpose or questions the viz intends to answer
+- **TECHNIQUES** The new methods tested and any lessons learned
+
+
+---
+
+class: left, top
+# The Marathon The Hard Part Begins At Mile 20 | Feb 2015
+
+.pull-left[This is my first viz on blah
+Audience:
+Qs to answer:
+Personal Review:
+Lessons:]
+
+.pull-right[
+[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20) [Alternative view](https://public.tableau.com/profile/will7508#!/vizhome/Book6_519/USA2012OlympicMarathon1MileSplits)
+![](https://public.tableau.com/static/images/Th/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20/1.png)
+]
+
+---
+
+class: left, top
+# West 4 Harriers Parkrun Report | Jul 2018
+
+.pull-left[This is my first viz on blah
+Audience:
+Qs to answer:
+Personal Review:
+Lessons:]
+
+.pull-right[
+[Parkrun Report](https://public.tableau.com/profile/will7508#!/vizhome/West4HarriersParkrunReport/WeeklyParkrunReport)
+![](https://public.tableau.com/static/images/We/West4HarriersParkrunReport/WeeklyParkrunReport/1.png)
+]
+
+---
+
+class: left, top
+# Race Result Template | Feb 2020
+
+.pull-left[This is my first viz on blah
+Audience:
+Qs to answer:
+Personal Review:
+Lessons:]
+
+.pull-right[
+[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/RaceResults_15812676840670/OverallResults)
+![](https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/OverallResults/1.png)
+]
+
+
+---
+
+class: left, top
+# The Fastest Marathon Dressed as... | Sep 2020
+
+.pull-left[This is my first viz on blah
+Audience:
+Qs to answer:
+Personal Review:
+Lessons:]
+
+.pull-right[
+[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/Thefastestmarathondressedas___/Thefastestmarathondressedas___)
+![](https://public.tableau.com/static/images/Th/Thefastestmarathondressedas___/Thefastestmarathondressedas___/1.png)
+]
+
+
+---
+
+class: left, top
+# Comrades 2017 | Sep 2020
+
+.pull-left[This is my first viz on blah
+Audience:
+Qs to answer:
+Personal Review:
+Lessons:]
+
+.pull-right[
+[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/Comrades2017/Comrades2017)
+![](https://public.tableau.com/static/images/Co/Comrades2017/Comrades2017/1.png)
+]
+
+
+---
+
+class: left, top
+# The Beer Mile World Records | Sep 2020
+
+.pull-left[This is my first viz on blah
+Audience:
+Qs to answer:
+Personal Review:
+Lessons:]
+
+.pull-right[
+[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/TheBeerMileWorldRecords/TheTop1000BeerMilePerformances)
+![](https://public.tableau.com/static/images/Th/TheBeerMileWorldRecords/TheTop1000BeerMilePerformances/1.png)
+]
+
+
+---
+
+class: left, top
+# Running for Olympic Gold | Oct 2020
+
+.pull-left[This is my first viz on blah
+Audience:
+Qs to answer:
+Personal Review:
+Lessons:]
+
+.pull-right[
+[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/RunningforOlympicGold/RunningforOlympicGold)
+![](https://public.tableau.com/static/images/Ru/RunningforOlympicGold/RunningforOlympicGold/1.png)
+]
+
+---
+
+class: left, top
+# The World Marathon Majors | Nov 2020
+
+.pull-left[This is my first viz on blah
+Audience:
+Qs to answer:
+Personal Review:
+Lessons:]
+
+.pull-right[
+[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/TheWorldMarathonMajors/TheWorldMarathonMajors)
+![](https://public.tableau.com/static/images/Th/TheWorldMarathonMajors/TheWorldMarathonMajors/1.png)
+]
+
+---
+
+class: left, top
+# Fin
