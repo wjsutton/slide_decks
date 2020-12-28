@@ -125,6 +125,33 @@ hr, .mline h1::after {
   opacity: 1;
 }
 
+/* footer */
+
+div.my-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+div.my-footer span {
+    font-size: 10pt;
+    color: #212121;
+    position: absolute;
+    left: 15px;
+    bottom: 2px;
+}
+/*
+a.footer-link {
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    height: 40px;
+    width: 150px;
+    color: #023d4d;
+}
+*/
 /* turns off slide numbers for title page: https://github.com/gnab/remark/issues/298 */
 .title-slide .remark-slide-number {
   display: none;

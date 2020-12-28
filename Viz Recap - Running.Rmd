@@ -14,6 +14,14 @@ output:
       titleSlideClass: ["left", "middle", "inverse"]
 ---
 
+layout: true
+
+<div class="my-footer"><span>
+Will Sutton | `r icon::fontawesome("link", style = "solid")` <a href="https://wjsutton.github.io/">wjsutton.github.io</a> | `r icon::fontawesome("twitter", style = "brands")` <a href="https://twitter.com/WJSutton12">wjsutton12</a> | `r icon::fontawesome("chart-bar", style = "solid")` <a href="https://public.tableau.com/profile/will7508#!/">tableau/will7508</a> | `r icon::fontawesome("github", style = "brands")` <a href="https://github.com/wjsutton">wjsutton</a> | `r icon::fontawesome("instagram", style = "brands")` <a href="https://www.instagram.com/data.gram/">data.gram</a>
+</span></div>
+
+---
+
 class: left, top
 # Recap Structure
 
@@ -31,7 +39,7 @@ Each viz recap review with the following:
 ---
 
 class: left, top
-# The Marathon The Hard Part Begins At Mile 20 | Feb 2015
+# The Marathon, The Hard Part Begins At Mile 20 | Feb 2015
 
 .pull-left[This is my first viz on blah
 Audience:
