@@ -1,7 +1,7 @@
 ---
 title: "<span style = 'font-size: 300%;color: #f2f2f2;'>**Viz Recap**</span>"
 subtitle: "<span style = 'font-size: 80%;color: #f2f2f2;'>THEME: RUNNING </span>"
-author: '<span style = "color: #f2f2f2;">Will Sutton | `r Sys.Date()` <br><span style = "font-size: 70%;">`r icon::fontawesome("link", style = "solid")` [wjsutton.github.io](https://wjsutton.github.io/) | `r icon::fontawesome("twitter", style = "brands")` [wjsutton12](https://twitter.com/WJSutton12)| `r icon::fontawesome("chart-bar", style = "solid")` [tableau/will7508](https://public.tableau.com/profile/will7508#!/) | `r icon::fontawesome("github", style = "brands")` [wjsutton](https://github.com/wjsutton) | `r icon::fontawesome("instagram", style = "brands")` [data.gram](https://www.instagram.com/data.gram/)</span></span>'
+author: '<span style = "color: #f2f2f2;">Will Sutton | `r Sys.Date()` <br><span style = "font-size: 70%;">`r icon::fontawesome("link", style = "solid")` [wjsutton.github.io](https://wjsutton.github.io/) | `r icon::fontawesome("twitter", style = "brands")` [wjsutton12](https://twitter.com/WJSutton12)| `r icon::fontawesome("chart-bar", style = "solid")` [tableau/wjsutton](https://public.tableau.com/profile/wjsutton#!/) | `r icon::fontawesome("github", style = "brands")` [wjsutton](https://github.com/wjsutton) | `r icon::fontawesome("instagram", style = "brands")` [data.gram](https://www.instagram.com/data.gram/)</span></span>'
 date: "<span style = 'font-size: 70%;'></span>"
 footer: "Testing"
 output: 
@@ -17,7 +17,7 @@ output:
 layout: true
 
 <div class="my-footer"><span>
-Will Sutton | `r icon::fontawesome("link", style = "solid")` <a href="https://wjsutton.github.io/">wjsutton.github.io</a> | `r icon::fontawesome("twitter", style = "brands")` <a href="https://twitter.com/WJSutton12">wjsutton12</a> | `r icon::fontawesome("chart-bar", style = "solid")` <a href="https://public.tableau.com/profile/will7508#!/">tableau/will7508</a> | `r icon::fontawesome("github", style = "brands")` <a href="https://github.com/wjsutton">wjsutton</a> | `r icon::fontawesome("instagram", style = "brands")` <a href="https://www.instagram.com/data.gram/">data.gram</a>
+Will Sutton | `r icon::fontawesome("link", style = "solid")` <a href="https://wjsutton.github.io/">wjsutton.github.io</a> | `r icon::fontawesome("twitter", style = "brands")` <a href="https://twitter.com/WJSutton12">wjsutton12</a> | `r icon::fontawesome("chart-bar", style = "solid")` <a href="https://public.tableau.com/profile/wjsutton#!/">tableau/wjsutton</a> | `r icon::fontawesome("github", style = "brands")` <a href="https://github.com/wjsutton">wjsutton</a> | `r icon::fontawesome("instagram", style = "brands")` <a href="https://www.instagram.com/data.gram/">data.gram</a>
 </span></div>
 
 ---
@@ -30,42 +30,92 @@ Over the last few months I've created a collection of running related data visua
 
 
 ### Recap Structure
+.pull-left[
 Each viz recap review with the following:
-- **AUDIENCE** The people viz was designed for 
-- **RATIONAL** The purpose or questions the viz intends to answer
-- **TECHNIQUES** The new methods tested and any lessons learned
-
-
----
-
-class: left, top
-# The Marathon, The Hard Part Begins At Mile 20 | Feb 2015
-
-.pull-left[This is my first viz on blah
-Audience:
-Qs to answer:
-Personal Review:
-Lessons:]
-
-.pull-right[
-[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20) [Alternative view](https://public.tableau.com/profile/will7508#!/vizhome/Book6_519/USA2012OlympicMarathon1MileSplits)
-![](https://public.tableau.com/static/images/Th/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20/1.png)
+- `r icon::fontawesome("users", style = "solid")` **AUDIENCE** The people viz was designed for 
+- `r icon::fontawesome("crosshairs", style = "solid")` **PURPOSE** The problem or questions the viz intends to answer
+- `r icon::fontawesome("toolbox", style = "solid")` **TECHNIQUES** The new methods tested and any lessons learned whilst building the viz
 ]
+.pull-right[
+To keep commnets on track I'll be using Information is Beautiful's What Makes a Good Data Visualization to review my work.<br>
+<a href="https://www.informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/"><img width ="80%" src="https://infobeautiful4.s3.amazonaws.com/2015/05/2552_What-Makes-a-Good-Infoviz-frame02.png" alt="Information is Beautiful, what makes a good infoviz"></a>
+
+]
+
 
 ---
 
 class: left, top
 # West 4 Harriers Parkrun Report | Jul 2018
 
-.pull-left[This is my first viz on blah
-Audience:
-Qs to answer:
-Personal Review:
-Lessons:]
+.pull-left[
+
+<div style='font-size: 80%;'>
+<br>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
+    Runners from West 4 Harriers
+    </div>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
+    Historical store of all weekly reports
+    </div>
+    <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
+    Automating with Google sheets and Tableau Public
+    </div>
+</div>
+
+<span style = 'font-size: 80%;'>
+<br><br><br>**Comments**<br>
+<ul style = 'font-size: 80%;'>
+<li>The goal of this viz was to complement the weekly Parkrun email I built. I feel the viz functions nicely as a store all the weekly reports and shows off the club records.</li>
+<li>This viz has no real story but acts as an exploratory view of the club's historical data.</li>
+<li>The visual form is clean, utilises the club colours without becoming too much of an eyesore (initially there was plenty of yellow, not a good look!)</li>
+<li>The data is split into three distinct sections but on reflection, I notice there aren't many instructions which will cause some users trouble, e.g. in the club records you can click a name to see the full list of club runners ranking for that record.</li>
+<li>The data was collected using web scraping with R [wjsutton/parkrun_parser](https://github.com/wjsutton/parkrun_parser), with the [googlesheets4 package](https://github.com/tidyverse/googlesheets4) you can upload the data to Googlesheets which can be refreshed by Tableau Public, more details on  [tableau.com](https://public.tableau.com/en-us/s/blog/2017/10/living-dashboards-how-automate-your-data-google-sheets)</li>
+</ul>
+</span>
+]
+
 
 .pull-right[
-[Parkrun Report](https://public.tableau.com/profile/will7508#!/vizhome/West4HarriersParkrunReport/WeeklyParkrunReport)
+[See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/West4HarriersParkrunReport/WeeklyParkrunReport)
 ![](https://public.tableau.com/static/images/We/West4HarriersParkrunReport/WeeklyParkrunReport/1.png)
+]
+
+---
+
+class: left, top
+# The Marathon, The Hard Part Begins At Mile 20 | Jan 2020
+
+.pull-left[
+
+<div style='font-size: 80%;'>
+<br>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
+    Marathon runners
+    </div>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
+    Analysis of pro marathon runners performances
+    </div>
+    <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
+    Storytelling with data
+    </div>
+</div>
+
+<span style = 'font-size: 80%;'>
+<br><br><br>**Comments**<br>
+<ul style = 'font-size: 80%;'>
+<li>This viz has much more of narrate angle to it, educating marathon runners that the even professionals runners struggle with consistent pacing after mile 20 and advice on how to handle it.</li>
+<li>Visually the form is clean, the brand colours contrast well but are feel strong and heavier where taking lighter hues may make this look easier on the eyes. This viz is heavy on text, the descriptive titles provide that extra insight but I could of paid more attention to the alignment and balance of the text, e.g. the introduction paragraphs are different lengths and text has several variations of font sizes, weight and colour.</li>
+<li>The story flows well focusing on one althete then comparing them to all runners, I feel the advice (aka the call to action) could be amped up as it feels weak when compared to the other assets in the viz.</li>
+<li>The viz has limited interaction making the experience very linear, which is safe for the wide audience but led me to create an alternative view showing all the competitors (much more aligned to my original viz in 2015)</li>
+</ul>
+</span>
+
+]
+
+.pull-right[
+[See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`    ](https://public.tableau.com/profile/wjsutton#!/vizhome/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20)[See the alternative viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/Book6_519/USA2012OlympicMarathon1MileSplits)
+![](https://public.tableau.com/static/images/Th/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20/1.png)
 ]
 
 ---
@@ -73,14 +123,35 @@ Lessons:]
 class: left, top
 # Race Result Template | Feb 2020
 
-.pull-left[This is my first viz on blah
-Audience:
-Qs to answer:
-Personal Review:
-Lessons:]
+.pull-left[
+<div style='font-size: 80%;'>
+<br>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
+    Runners competing in a race
+    </div>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
+    Adding dataviz to traditional race results
+    </div>
+    <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
+    Revamping an old method, building a template
+    </div>
+</div>
+
+<span style = 'font-size: 80%;'>
+<br><br><br>**Comments**<br>
+<ul style = 'font-size: 80%;'>
+<li>Goal?</li>
+<li>Visual form?</li>
+<li>Story?</li>
+<li>Information?</li>
+<li>Lessons Learned? Github links?</li>
+</ul>
+</span>
+
+]
 
 .pull-right[
-[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/RaceResults_15812676840670/OverallResults)
+[See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/RaceResults_15812676840670/OverallResults)
 ![](https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/OverallResults/1.png)
 ]
 
@@ -90,14 +161,35 @@ Lessons:]
 class: left, top
 # The Fastest Marathon Dressed as... | Sep 2020
 
-.pull-left[This is my first viz on blah
-Audience:
-Qs to answer:
-Personal Review:
-Lessons:]
+.pull-left[
+<div style='font-size: 80%;'>
+<br>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
+    Marathon & half marathon runners
+    </div>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
+    Finding GWR marathon times to beat
+    </div>
+    <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
+    Webscraping and implementing Desktop and mobile views
+    </div>
+</div>
+
+<span style = 'font-size: 80%;'>
+<br><br><br>**Comments**<br>
+<ul style = 'font-size: 80%;'>
+<li>Goal?</li>
+<li>Visual form?</li>
+<li>Story?</li>
+<li>Information?</li>
+<li>Lessons Learned? Github links?</li>
+</ul>
+</span>
+
+]
 
 .pull-right[
-[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/Thefastestmarathondressedas___/Thefastestmarathondressedas___)
+[See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/Thefastestmarathondressedas___/Thefastestmarathondressedas___)
 ![](https://public.tableau.com/static/images/Th/Thefastestmarathondressedas___/Thefastestmarathondressedas___/1.png)
 ]
 
@@ -107,14 +199,34 @@ Lessons:]
 class: left, top
 # Comrades 2017 | Sep 2020
 
-.pull-left[This is my first viz on blah
-Audience:
-Qs to answer:
-Personal Review:
-Lessons:]
+.pull-left[
+<div style='font-size: 80%;'>
+<br>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
+    Runners, wider public
+    </div>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
+    Raising awareness of the Comrades marathon 
+    </div>
+    <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
+    Strava API & Using Stories in Tableau
+    </div>
+</div>
 
+<span style = 'font-size: 80%;'>
+<br><br><br>**Comments**<br>
+<ul style = 'font-size: 80%;'>
+<li>Goal?</li>
+<li>Visual form?</li>
+<li>Story?</li>
+<li>Information?</li>
+<li>Lessons Learned? Github links?</li>
+</ul>
+</span>
+
+]
 .pull-right[
-[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/Comrades2017/Comrades2017)
+[See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/Comrades2017/Comrades2017)
 ![](https://public.tableau.com/static/images/Co/Comrades2017/Comrades2017/1.png)
 ]
 
@@ -124,14 +236,35 @@ Lessons:]
 class: left, top
 # The Beer Mile World Records | Sep 2020
 
-.pull-left[This is my first viz on blah
-Audience:
-Qs to answer:
-Personal Review:
-Lessons:]
+.pull-left[
+<div style='font-size: 80%;'>
+<br>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
+    Runners & beer drinkers
+    </div>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
+    Raising awareness of the beer mile
+    </div>
+    <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
+    Webscraping, Implementing a design from Pintrest
+    </div>
+</div>
+
+<span style = 'font-size: 80%;'>
+<br><br><br>**Comments**<br>
+<ul style = 'font-size: 80%;'>
+<li>Goal?</li>
+<li>Visual form?</li>
+<li>Story?</li>
+<li>Information?</li>
+<li>Lessons Learned? Github links?</li>
+</ul>
+</span>
+
+]
 
 .pull-right[
-[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/TheBeerMileWorldRecords/TheTop1000BeerMilePerformances)
+[See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/TheBeerMileWorldRecords/TheTop1000BeerMilePerformances)
 ![](https://public.tableau.com/static/images/Th/TheBeerMileWorldRecords/TheTop1000BeerMilePerformances/1.png)
 ]
 
@@ -141,14 +274,35 @@ Lessons:]
 class: left, top
 # Running for Olympic Gold | Oct 2020
 
-.pull-left[This is my first viz on blah
-Audience:
-Qs to answer:
-Personal Review:
-Lessons:]
+.pull-left[
+<div style='font-size: 80%;'>
+<br>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
+    Watchers of the Olympics
+    </div>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
+    Showing trends in gold medal winners
+    </div>
+    <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
+    Salvaging a viz after being foiled by radials
+    </div>
+</div>
+
+<span style = 'font-size: 80%;'>
+<br><br><br>**Comments**<br>
+<ul style = 'font-size: 80%;'>
+<li>Goal?</li>
+<li>Visual form?</li>
+<li>Story?</li>
+<li>Information?</li>
+<li>Lessons Learned? Github links?</li>
+</ul>
+</span>
+
+]
 
 .pull-right[
-[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/RunningforOlympicGold/RunningforOlympicGold)
+[See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/RunningforOlympicGold/RunningforOlympicGold)
 ![](https://public.tableau.com/static/images/Ru/RunningforOlympicGold/RunningforOlympicGold/1.png)
 ]
 
@@ -157,14 +311,35 @@ Lessons:]
 class: left, top
 # The World Marathon Majors | Nov 2020
 
-.pull-left[This is my first viz on blah
-Audience:
-Qs to answer:
-Personal Review:
-Lessons:]
+.pull-left[
+<div style='font-size: 80%;'>
+<br>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
+    Marathon runners
+    </div>
+    <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
+    Raising awareness and showing analysis of WMM
+    </div>
+    <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
+    Webscraping and viz design
+    </div>
+</div>
+
+<span style = 'font-size: 80%;'>
+<br><br><br>**Comments**<br>
+<ul style = 'font-size: 80%;'>
+<li>Goal?</li>
+<li>Visual form?</li>
+<li>Story?</li>
+<li>Information?</li>
+<li>Lessons Learned? Github links?</li>
+</ul>
+</span>
+
+]
 
 .pull-right[
-[See the viz](https://public.tableau.com/profile/will7508#!/vizhome/TheWorldMarathonMajors/TheWorldMarathonMajors)
+[See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/TheWorldMarathonMajors/TheWorldMarathonMajors)
 ![](https://public.tableau.com/static/images/Th/TheWorldMarathonMajors/TheWorldMarathonMajors/1.png)
 ]
 
