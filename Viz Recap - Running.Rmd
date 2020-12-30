@@ -127,24 +127,23 @@ class: left, top
 <div style='font-size: 80%;'>
 <br>
     <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("users", style = "solid")` AUDIENCE</b><br>
-    Runners competing in a race
+    Runners competing in a race, friends and family
     </div>
     <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
-    Adding dataviz to traditional race results
+    Adding dataviz elements to traditional race results
     </div>
     <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
-    Revamping an old method, building a template
+    Beeswarm plots and building a template
     </div>
 </div>
 
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>Goal?</li>
-<li>Visual form?</li>
-<li>Story?</li>
-<li>Information?</li>
-<li>Lessons Learned? Github links?</li>
+<li>The aim with this viz was to improve race results, which are usually tables of runners, club, age group and finishing time. Two views were created, one the overall picture of the race for which I feel the beeswarm plot helps show the distribution of the race which the KPIs make the data easier to digest. The second view is for the competitors showing where they rank against similar runners by finish time, age group or club. </li>
+<li>In both cases I haven't deviated from the table as this is the traditional method and removing it may be met with some resistance by users, so I've added KPIs, charts and interaction to aid and enhance the users' experience.</li>
+<li>The visuals are clean but are just the default options, even for a template colour could be used better and some of the font weights could increase to lure users away from just scanning table and experimenting with other parts of the viz.</li>
+<li>I had some excellent feedback as part of the Feedback Loop project so I'm happy with how this one has turned out.</li>
 </ul>
 </span>
 
@@ -152,7 +151,8 @@ class: left, top
 
 .pull-right[
 [See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/RaceResults_15812676840670/OverallResults)
-![](https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/OverallResults/1.png)
+<br><img width=78% src="https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/OverallResults/1.png">
+<img width=78% src="https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/IndividualResults/1_rss.png">
 ]
 
 
@@ -171,18 +171,18 @@ class: left, top
     Finding GWR marathon times to beat
     </div>
     <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
-    Webscraping and implementing Desktop and mobile views
+    Webscraping and implementing desktop and mobile views
     </div>
 </div>
 
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>Goal?</li>
-<li>Visual form?</li>
-<li>Story?</li>
-<li>Information?</li>
-<li>Lessons Learned? Github links?</li>
+<li>The Guinness World Record (GWR) [site](https://www.guinnessworldrecords.com/records/showcase/marathons) shows records in a list format which makes it time consuming to get a clear picture of all the records. Functionally the allows to see the distribution of records via the beeswarm plot and two routes in, entering a time or by searching for an outfit.</li>
+<li>Visually the dashboard looks better on desktop, the mobile version feels a bit more crampt handling four filters, the beeswarm plot was rotated as is still as clear as in the desktop version.</li>
+<li>The introduction and annotations here help prompt the user to investigate the data and aid some story telling in the viz.</li>
+<li>New records will be set in the future, additional work could be complete to automate this dashboard but is there any demand for this? To tackle this question I added the "Request an update" option which links to the contact page on my blog.</li>
+<li>The data was collected and reshaped using R, scripts and data available here:  [wjsutton/fastest_marathon_dressed_as](https://github.com/wjsutton/fastest_marathon_dressed_as)</li>
 </ul>
 </span>
 
@@ -257,7 +257,7 @@ class: left, top
 <li>Visual form?</li>
 <li>Story?</li>
 <li>Information?</li>
-<li>Lessons Learned? Github links?</li>
+<li>The data was collected and reshaped using R, scripts and data available here:  [wjsutton/beer_mile_records](https://github.com/wjsutton/beer_mile_records)</li>
 </ul>
 </span>
 
@@ -295,7 +295,7 @@ class: left, top
 <li>Visual form?</li>
 <li>Story?</li>
 <li>Information?</li>
-<li>Lessons Learned? Github links?</li>
+<li>The data was collected and reshaped using R, scripts and data available here:  [wjsutton/olympic_athletics](https://github.com/wjsutton/olympic_athletics)</li>
 </ul>
 </span>
 
@@ -332,7 +332,7 @@ class: left, top
 <li>Visual form?</li>
 <li>Story?</li>
 <li>Information?</li>
-<li>Lessons Learned? Github links?</li>
+<li>The data was collected and reshaped using R, scripts and data available here:  [wjsutton/world_major_marathons](https://github.com/wjsutton/world_major_marathons)</li>
 </ul>
 </span>
 
