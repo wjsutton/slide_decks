@@ -26,7 +26,7 @@ class: left, top
 # Recap Structure
 
 ### Intro
-Over the last few months I've created a collection of running related data visualisations. I run regularly so have a keen interest in the sport and wanted to explore what was possible with dataviz. Lastly I wanted to further my data skills so most projects be testing out a new technique.
+Over the last few months, I've created a collection of running-related data visualisations. I run regularly so have a keen interest in the sport and wanted to explore what was possible with data viz. Lastly, I wanted to further my data skills so most projects are testing out a new technique or method.
 
 
 ### Recap Structure
@@ -37,8 +37,8 @@ Each viz recap review with the following:
 - `r icon::fontawesome("toolbox", style = "solid")` **TECHNIQUES** The new methods tested and any lessons learned whilst building the viz
 ]
 .pull-right[
-To keep commnets on track I'll be using Information is Beautiful's What Makes a Good Data Visualization to review my work.<br>
-<a href="https://www.informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/"><img width ="80%" src="https://infobeautiful4.s3.amazonaws.com/2015/05/2552_What-Makes-a-Good-Infoviz-frame02.png" alt="Information is Beautiful, what makes a good infoviz"></a>
+To keep comments on track I'll be using Information is Beautiful's What Makes a Good Data Visualization to review my work.<br>
+<a href="https://www.informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/"><img width ="75%" src="https://infobeautiful4.s3.amazonaws.com/2015/05/2552_What-Makes-a-Good-Infoviz-frame02.png" alt="Information is Beautiful, what makes a good data viz"></a>
 
 ]
 
@@ -78,7 +78,9 @@ class: left, top
 
 .pull-right[
 [See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/West4HarriersParkrunReport/WeeklyParkrunReport)
-![](https://public.tableau.com/static/images/We/West4HarriersParkrunReport/WeeklyParkrunReport/1.png)
+<span style="display:block;text-align:center">
+<img width=44% src="https://public.tableau.com/static/images/We/West4HarriersParkrunReport/WeeklyParkrunReport/1.png">
+</span>
 ]
 
 ---
@@ -104,9 +106,10 @@ class: left, top
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>This viz has much more of narrate angle to it, educating marathon runners that the even professionals runners struggle with consistent pacing after mile 20 and advice on how to handle it.</li>
-<li>Visually the form is clean, the brand colours contrast well but are feel strong and heavier where taking lighter hues may make this look easier on the eyes. This viz is heavy on text, the descriptive titles provide that extra insight but I could of paid more attention to the alignment and balance of the text, e.g. the introduction paragraphs are different lengths and text has several variations of font sizes, weight and colour.</li>
-<li>The story flows well focusing on one althete then comparing them to all runners, I feel the advice (aka the call to action) could be amped up as it feels weak when compared to the other assets in the viz.</li>
+<li>This viz has much more of narrative angle to it, educating marathon runners that the even professional runners struggle with consistent pacing after mile 20 and advice on how to handle it.</li>
+<li>Visually the form is clean, the brand colours contrast well but feel heavy, on reflection taking lighter hues may make the viz look easier on the eyes. </li>
+<li>This viz is heavy on text, the descriptive titles provide that extra insight. More attention to the alignment and balance of the text, e.g. the introduction paragraphs are different lengths and text has several variations of font sizes, weight and colour.</li>
+<li>The story flows well focusing on one athlete then comparing them to all runners, I feel the advice (aka the call to action) could be amped up as it feels weak when compared to the other assets in the viz.</li>
 <li>The viz has limited interaction making the experience very linear, which is safe for the wide audience but led me to create an alternative view showing all the competitors (much more aligned to my original viz in 2015)</li>
 </ul>
 </span>
@@ -115,7 +118,9 @@ class: left, top
 
 .pull-right[
 [See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`    ](https://public.tableau.com/profile/wjsutton#!/vizhome/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20)[See the alternative viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/Book6_519/USA2012OlympicMarathon1MileSplits)
-![](https://public.tableau.com/static/images/Th/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20/1.png)
+<span style="display:block;text-align:center">
+<img width=65% src="https://public.tableau.com/static/images/Th/TheMarathonTheHardPartBeginsAtMile20/TheMarathonTheHardPartBeginsAtMile20/1.png"></p>
+</span>
 ]
 
 ---
@@ -130,7 +135,7 @@ class: left, top
     Runners competing in a race, friends and family
     </div>
     <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
-    Adding dataviz elements to traditional race results
+    Adding data viz elements to traditional race results
     </div>
     <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
     Beeswarm plots and building a template
@@ -140,9 +145,10 @@ class: left, top
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>The aim with this viz was to improve race results, which are usually tables of runners, club, age group and finishing time. Two views were created, one the overall picture of the race for which I feel the beeswarm plot helps show the distribution of the race which the KPIs make the data easier to digest. The second view is for the competitors showing where they rank against similar runners by finish time, age group or club. </li>
-<li>In both cases I haven't deviated from the table as this is the traditional method and removing it may be met with some resistance by users, so I've added KPIs, charts and interaction to aid and enhance the users' experience.</li>
-<li>The visuals are clean but are just the default options, even for a template colour could be used better and some of the font weights could increase to lure users away from just scanning table and experimenting with other parts of the viz.</li>
+<li>The aim with this viz was to improve race results, which are usually tables of runners, club, age group and finishing time. </li>
+<li>Two views were created, the first an overall picture of the race for which I feel the beeswarm plot helps show the distribution of the race which the KPIs make the data easier to digest. The second view is for the competitors showing where they rank against similar runners by finish time, age group or club. </li>
+<li>In both cases, I haven't deviated from the table as this is the traditional method and removing it may be met with some resistance by users, so I've added KPIs, charts and interaction to aid and enhance the users' experience.</li>
+<li>The visuals are clean but are just the default options, even for a template colour  and font could be used more effectively to lure users away from just scanning table and experimenting with other parts of the viz.</li>
 <li>I had some excellent feedback as part of the Feedback Loop project so I'm happy with how this one has turned out.</li>
 </ul>
 </span>
@@ -151,8 +157,8 @@ class: left, top
 
 .pull-right[
 [See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/RaceResults_15812676840670/OverallResults)
-<br><img width=78% src="https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/OverallResults/1.png">
-<img width=78% src="https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/IndividualResults/1_rss.png">
+<br><img width=77% src="https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/OverallResults/1.png">
+<img width=77% src="https://public.tableau.com/static/images/Ra/RaceResults_15812676840670/IndividualResults/1_rss.png">
 ]
 
 
@@ -171,16 +177,16 @@ class: left, top
     Finding GWR marathon times to beat
     </div>
     <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
-    Webscraping and implementing desktop and mobile views
+    Web scraping, implementing desktop and mobile views
     </div>
 </div>
 
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>The Guinness World Record (GWR) [site](https://www.guinnessworldrecords.com/records/showcase/marathons) shows records in a list format which makes it time consuming to get a clear picture of all the records. Functionally the allows to see the distribution of records via the beeswarm plot and two routes in, entering a time or by searching for an outfit.</li>
-<li>Visually the dashboard looks better on desktop, the mobile version feels a bit more crampt handling four filters, the beeswarm plot was rotated as is still as clear as in the desktop version.</li>
-<li>The introduction and annotations here help prompt the user to investigate the data and aid some story telling in the viz.</li>
+<li>The Guinness World Record (GWR) [site](https://www.guinnessworldrecords.com/records/showcase/marathons) shows records in a list which makes it time-consuming to get a clear picture of all the records. The viz allows us to see the distribution of records via the beeswarm plot and two routes in, entering a time or by searching for an outfit.</li>
+<li>Visually the dashboard looks better on desktop, the mobile version feels a bit more cramped handling four filters, however the beeswarm plot was rotated as is still as clear as in the desktop version.</li>
+<li>The introduction and annotations here help prompt the user to investigate the data and aid storytelling in the viz.</li>
 <li>New records will be set in the future, additional work could be complete to automate this dashboard but is there any demand for this? To tackle this question I added the "Request an update" option which links to the contact page on my blog.</li>
 <li>The data was collected and reshaped using R, scripts and data available here:  [wjsutton/fastest_marathon_dressed_as](https://github.com/wjsutton/fastest_marathon_dressed_as)</li>
 </ul>
@@ -216,18 +222,22 @@ class: left, top
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>Goal?</li>
-<li>Visual form?</li>
-<li>Story?</li>
-<li>Information?</li>
-<li>Lessons Learned? Github links?</li>
+<li>I hadn't attempted a Story in Tableau for some time and thought my personal experience of running the Comrades in 2017 would be a good use case.</li>
+<li>Similar to previous examples I've mimicked the colours from the brand, in this case, I've softened the gold to make it easier on the eye.</li>
+<li>I feel the more text could be added to tabs 2 & 3 to help balance with the charts and would make tab 4 look relatively less text-intensive.</li>
+<li>Story-wise I feel tab 1 sets the scene of where and what. Tabs 2-3 feel the wrong way round; tab 3 gives more detail to the race introduced in tab 1 whereas tab 2 talks through my preparation and would transition to my performance in tab 4. </li>
+<li>One lesson here is to take more time planning Stories in Tableau, seeing all the tabs in one place here shows me how my story jumps around and how unbalanced the tabs feel when compared after being built in isolation - an advantage of long form views.</li>
 </ul>
 </span>
 
 ]
 .pull-right[
 [See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/Comrades2017/Comrades2017)
-![](https://public.tableau.com/static/images/Co/Comrades2017/Comrades2017/1.png)
+<br><img width=48% src="https://public.tableau.com/static/images/Co/Comrades2017/Comrades2017/1.png">
+<img width=48% src="https://public.tableau.com/static/images/TT/TTNTX9Q2G/1_rss.png">
+<br><img width=48% src="https://public.tableau.com/static/images/TG/TG3CB6P26/1_rss.png">
+<img width=48% src="https://public.tableau.com/static/images/ST/STT4YZ4X3/1_rss.png">
+
 ]
 
 
@@ -246,17 +256,15 @@ class: left, top
     Raising awareness of the beer mile
     </div>
     <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
-    Webscraping, Implementing a design from Pintrest
+    Web scraping and implementing a design from Pinterest
     </div>
 </div>
 
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>Goal?</li>
-<li>Visual form?</li>
-<li>Story?</li>
-<li>Information?</li>
+<li>The form for this viz was inspired by a data viz of Hong Kong marathon times: [In the long run](https://www.pinterest.co.uk/pin/283867582745642051/) and I feel combined with the annotations works well for telling the story of the top 1,000 beer mile runners.</li>
+<li>In most cases, I try to mimic the brand colours but in this case, I feel the monochrome style detracts from the viz. For example, I don't have a contrasting colour to draw attention to interesting data points so rely heavily on annotations to tell the story.</li>
 <li>The data was collected and reshaped using R, scripts and data available here:  [wjsutton/beer_mile_records](https://github.com/wjsutton/beer_mile_records)</li>
 </ul>
 </span>
@@ -265,7 +273,10 @@ class: left, top
 
 .pull-right[
 [See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/TheBeerMileWorldRecords/TheTop1000BeerMilePerformances)
-![](https://public.tableau.com/static/images/Th/TheBeerMileWorldRecords/TheTop1000BeerMilePerformances/1.png)
+<span style="display:block;text-align:center">
+<img width=42% src="https://public.tableau.com/static/images/Th/TheBeerMileWorldRecords/TheTop1000BeerMilePerformances/1.png">
+</span>
+
 ]
 
 
@@ -291,10 +302,11 @@ class: left, top
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>Goal?</li>
-<li>Visual form?</li>
-<li>Story?</li>
-<li>Information?</li>
+<li>The original format of this viz was intended to look very different, the inspiration was from Nadieh Bremer's [Olympic-feathers](https://www.visualcinnamon.com/portfolio/olympic-feathers) radial viz but mine ended up being a rectangular view.</li>
+<li>Visually I feel the rectangular view works better as each medal occupies the same amount of space giving them all equal importance.</li>
+<li>The colours taken from the Olympic logo make the groupings distinct and help pick out stories, e.g. the dominance of the Americas in the short distances, Africa's overtake of Europe in longer races, etc.</li>
+<li>Annotations here really aid explaining some of the nuances of the data such as missing years and medal winners. The bottom left note feels a bit squeezed in and may work better as a tooltip in the square it's referring to.</li>
+<li>The bar chart is well utilised, giving the totals, acting as a legend and providing a highlight interaction.</li>
 <li>The data was collected and reshaped using R, scripts and data available here:  [wjsutton/olympic_athletics](https://github.com/wjsutton/olympic_athletics)</li>
 </ul>
 </span>
@@ -318,20 +330,20 @@ class: left, top
     Marathon runners
     </div>
     <div style="float: left; width:32%;padding-right:2%"><b>`r icon::fontawesome("crosshairs", style = "solid")` PURPOSE</b><br>
-    Raising awareness and showing analysis of WMM
+    Raising awareness and showing analysis of Abbott WMM
     </div>
     <div style="float: left; width:32%"><b>`r icon::fontawesome("toolbox", style = "solid")` TECHNIQUES</b><br>
-    Webscraping and viz design
+    Web scraping and viz design
     </div>
 </div>
 
 <span style = 'font-size: 80%;'>
 <br><br><br>**Comments**<br>
 <ul style = 'font-size: 80%;'>
-<li>Goal?</li>
-<li>Visual form?</li>
-<li>Story?</li>
-<li>Information?</li>
+<li>The aim with this viz was to inform viewers about the Abbott WMM for which I feel the map with annotations to highlight the race locations works well to bring people up to speed.</li>
+<li>The second half explores the data, split by key facts about the participants are reference with colour and the descriptive titles on the left. The right side presents the finishing times of the runners for comparison by the individual courses.</li>
+<li>The colours contrast well, highlighting key data points in the left-hand side charts, but still giving the viz a clean overall feel.</li>
+<li>The viz lacks interaction, limiting the experience for a user to ask their questions of the data, e.g. personalising the viz to runners from their own country.</li>
 <li>The data was collected and reshaped using R, scripts and data available here:  [wjsutton/world_major_marathons](https://github.com/wjsutton/world_major_marathons)</li>
 </ul>
 </span>
@@ -340,10 +352,32 @@ class: left, top
 
 .pull-right[
 [See the viz `r icon::fontawesome("arrow-alt-circle-right", style = "solid")`](https://public.tableau.com/profile/wjsutton#!/vizhome/TheWorldMarathonMajors/TheWorldMarathonMajors)
-![](https://public.tableau.com/static/images/Th/TheWorldMarathonMajors/TheWorldMarathonMajors/1.png)
+<span style="display:block;text-align:center">
+<img width=48% src="https://public.tableau.com/static/images/Th/TheWorldMarathonMajors/TheWorldMarathonMajors/1.png">
+</span>
 ]
 
 ---
 
-class: left, top
-# Fin
+layout: false
+class: inverse, center, middle, hide-count
+
+# <span style = 'font-size: 200%;color: #f2f2f2;'>**Keep in touch**</span>
+
+<div id="container">
+<div>
+<b>SEE MORE POSTS</b><br>
+`r icon::fontawesome("link", style = "solid")` <a href="https://wjsutton.github.io/">wjsutton.github.io</a> </div>
+<div>
+<b>CHECK OUT MY CONTENT</b><br>
+`r icon::fontawesome("chart-bar", style = "solid")` <a href="https://public.tableau.com/profile/wjsutton#!/">tableau/wjsutton</a>
+`r icon::fontawesome("github", style = "brands")` <a href="https://github.com/wjsutton">wjsutton</a> 
+`r icon::fontawesome("instagram", style = "brands")` <a href="https://www.instagram.com/data.gram/">data.gram</a>
+</div>
+<div>
+<b>STAY REGULARLY UPDATED</b><br>
+`r icon::fontawesome("twitter", style = "brands")` <a href="https://twitter.com/WJSutton12">wjsutton12</a>
+</div>
+</div>
+
+

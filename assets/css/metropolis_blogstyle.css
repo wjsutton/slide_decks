@@ -142,6 +142,25 @@ div.my-footer span {
     left: 15px;
     bottom: 2px;
 }
+
+/* end slide */
+
+
+
+#container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+}
+#container > div {
+  width: 33%;
+}
+
+.hide-count .remark-slide-number {
+  display: none;
+}
+
 /*
 a.footer-link {
     position: absolute;
